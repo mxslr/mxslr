@@ -185,6 +185,7 @@ export async function collect(login, token, now = new Date()) {
   const endYear = now.getUTCFullYear();
 
   let totalCommits = 0;
+  let restricted = 0;
   let prs = 0;
   let issues = 0;
   let reviews = 0;
@@ -199,7 +200,13 @@ export async function collect(login, token, now = new Date()) {
       to: (to > now ? now : to).toISOString(),
     }, token);
     const c = data.user.contributionsCollection;
-    totalCommits += c.totalCommitContributions + c.restrictedContributionsCount;
+    // Commits only. restrictedContributionsCount is deliberately NOT added
+    // here: it counts every contribution type the viewer cannot see, so
+    // folding it in would report hidden issues and pull requests as commits.
+    // With the profile setting enabled and a repo-scoped token, private
+    // commits already land in totalCommitContributions.
+    totalCommits += c.totalCommitContributions;
+    restricted += c.restrictedContributionsCount;
     prs += c.totalPullRequestContributions;
     issues += c.totalIssueContributions;
     reviews += c.totalPullRequestReviewContributions;
@@ -254,6 +261,9 @@ export async function collect(login, token, now = new Date()) {
     synced: iso(now),
     login,
     totalCommits,
+    // Contributions of any type still hidden from this token. Kept in the
+    // cache so the commit figure can be audited, not shown on a panel.
+    restrictedContributions: restricted,
     contributions12m,
     linesAdded,
     linesRemoved,
