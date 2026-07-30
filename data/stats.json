@@ -2,14 +2,14 @@
   "ok": true,
   "synced": "2026-07-30",
   "login": "mxslr",
-  "totalCommits": 398,
+  "totalCommits": 392,
   "contributions12m": 382,
-  "linesAdded": 178035,
-  "linesRemoved": 16540,
-  "linesNet": 161495,
-  "repos": 18,
-  "reposScanned": 18,
-  "locRepos": 16,
+  "linesAdded": 284541,
+  "linesRemoved": 24701,
+  "linesNet": 259840,
+  "repos": 22,
+  "reposScanned": 22,
+  "locRepos": 19,
   "stars": 8,
   "prs": 4,
   "issues": 0,
@@ -21,52 +21,62 @@
   "busiestWeekday": "SUNDAY",
   "accountAge": "4Y 11M",
   "createdAt": "2021-08-05T08:59:54Z",
-  "languageBytes": 2303122,
+  "languageBytes": 3924116,
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1510852,
-      "pct": 65.60017228787707
-    },
-    {
-      "name": "Blade",
-      "bytes": 312799,
-      "pct": 13.581521083121084
+      "pct": 38.50171605528481
     },
     {
       "name": "PHP",
-      "bytes": 191806,
-      "pct": 8.328086831700622
+      "bytes": 961125,
+      "pct": 24.4927774816035
     },
     {
-      "name": "HTML",
-      "bytes": 120844,
-      "pct": 5.246964772165782
+      "name": "Blade",
+      "bytes": 928099,
+      "pct": 23.651161178721523
     },
     {
       "name": "JavaScript",
-      "bytes": 79954,
-      "pct": 3.4715486196562755
+      "bytes": 243799,
+      "pct": 6.212838764195554
     },
     {
-      "name": "Python",
-      "bytes": 42560,
-      "pct": 1.847926423350565
+      "name": "HTML",
+      "bytes": 122856,
+      "pct": 3.1307942986394894
     },
     {
       "name": "CSS",
-      "bytes": 26920,
-      "pct": 1.1688481982283179
+      "bytes": 52735,
+      "pct": 1.3438695492182189
+    },
+    {
+      "name": "Python",
+      "bytes": 44614,
+      "pct": 1.136918480493441
+    },
+    {
+      "name": "Java",
+      "bytes": 40689,
+      "pct": 1.036895953126768
     },
     {
       "name": "Jupyter Notebook",
       "bytes": 13762,
-      "pct": 0.5975367349189491
+      "pct": 0.3507031902216958
     },
     {
       "name": "Dockerfile",
       "bytes": 3625,
-      "pct": 0.15739504898133924
+      "pct": 0.09237749342781915
+    },
+    {
+      "name": "Hack",
+      "bytes": 1960,
+      "pct": 0.04994755506717946
     }
   ],
   "weeks": [
