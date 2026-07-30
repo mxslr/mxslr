@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>profile preview</title>
+<!--
+  Local preview of every panel on one page. Open directly in a browser; no
+  server needed. The toggle switches the page between GitHub's light and dark
+  canvas colours, which is the useful check since panels carry their own
+  background and have to hold up against both.
+-->
+<style>
+  body { margin: 0; background: #ffffff; font-family: -apple-system, Segoe UI, sans-serif; }
+  body.dark { background: #0d1117; }
+  .page { max-width: 890px; margin: 0 auto; padding: 28px 16px 64px; }
+  .c { text-align: center; }
+  .c img { display: inline-block; }
+  .row { display: flex; justify-content: center; gap: 10px; }
+  .gap { height: 14px; }
+  button {
+    position: fixed; top: 12px; right: 12px; z-index: 9;
+    padding: 8px 14px; border: 1px solid #8fb8d6; border-radius: 4px;
+    background: #eaf5ff; color: #123a5c; font: inherit; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<button onclick="document.body.classList.toggle('dark')">toggle canvas</button>
+<div class="page">
+  <div class="c"><img src="../assets/hero.svg" width="550" alt="hero"></div>
+  <div class="gap"></div>
+  <div class="c"><img src="../assets/about.svg" width="550" alt="about"></div>
+  <div class="gap"></div>
+  <div class="c"><img src="../assets/telemetry.svg" width="550" alt="telemetry"></div>
+  <div class="gap"></div>
+  <div class="c"><img src="../assets/languages.svg" width="550" alt="languages"></div>
+  <div class="gap"></div>
+  <div class="c"><img src="../assets/activity.svg" width="550" alt="activity"></div>
+  <div class="gap"></div>
+  <div class="c"><img src="../assets/stack.svg" width="550" alt="stack"></div>
+  <div class="gap"></div>
+  <div class="row">
+    <img src="../assets/btn-linkedin.svg" width="172" alt="linkedin">
+    <img src="../assets/btn-website.svg" width="172" alt="website">
+  </div>
+  <div class="gap"></div>
+  <div class="c"><img src="../assets/footer.svg" width="550" alt="footer"></div>
+</div>
+</body>
+</html>

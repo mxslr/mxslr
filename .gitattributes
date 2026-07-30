@@ -1,0 +1,7 @@
+# The workflow regenerates every SVG on a Linux runner while local edits happen
+# on Windows. Pinning line endings keeps the daily commit limited to real data
+# changes instead of whole-file line-ending churn.
+* text=auto eol=lf
+
+*.png binary
+*.gif binary

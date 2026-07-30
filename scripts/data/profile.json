@@ -1,0 +1,58 @@
+{
+  "login": "mxslr",
+  "name": "MARSHALL",
+  "handle": "@MXSLR",
+  "roles": [
+    "AI AND MACHINE LEARNING ENGINEER",
+    "SOFTWARE ENGINEER",
+    "LLM APPLICATION DEVELOPER"
+  ],
+  "summary": [
+    "AI AND ML ENGINEER WITH A SOFTWARE ENGINEERING BACKGROUND.",
+    "I BUILD MODELS THAT SURVIVE HONEST EVALUATION, AND THE",
+    "PRODUCTION SYSTEMS THAT ACTUALLY SERVE THEM."
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/mxslr/",
+    "website": "https://mxslr.my.id"
+  },
+  "stack": [
+    {
+      "title": "FULL-STACK WEB",
+      "style": "solid",
+      "items": [
+        "REACT", "NEXT.JS", "TYPESCRIPT", "NODE.JS", "NESTJS",
+        "EXPRESS.JS", "FASTAPI", "PHP", "LARAVEL", "POSTGRESQL",
+        "PRISMA", "SUPABASE", "REST APIS", "DOCKER", "GIT / GITHUB"
+      ]
+    },
+    {
+      "title": "AI AND MACHINE LEARNING",
+      "style": "solid",
+      "items": [
+        "PYTHON", "TENSORFLOW", "TENSORFLOW.JS", "PYTORCH",
+        "SCIKIT-LEARN", "OPENCV", "MEDIAPIPE", "YOLO"
+      ]
+    },
+    {
+      "title": "LLM APPLICATIONS",
+      "style": "solid",
+      "items": [
+        "OPENAI API", "LANGCHAIN", "RAG", "PROMPT ENGINEERING", "REGEX"
+      ]
+    },
+    {
+      "title": "INTEGRATIONS",
+      "style": "solid",
+      "items": ["MIDTRANS", "GOOGLE OAUTH", "SMTP", "DOMPDF"]
+    },
+    {
+      "title": "METHOD AND RIGOR",
+      "style": "outline",
+      "items": [
+        "CNN 2D / 1D", "TRANSFER LEARNING", "GRAD-CAM",
+        "LEAKAGE-FREE EVAL", "PATIENT-LEVEL SPLITS", "ROC / AUC", "F1"
+      ]
+    }
+  ]
+}
